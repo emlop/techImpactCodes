@@ -1,6 +1,7 @@
-//Emel drove, Madeline typed
 
-var r = 100 //variable for color stroke
+
+//variables for color stroke
+var r = 100 
 var g = 160
 var b = 201
 
