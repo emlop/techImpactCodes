@@ -1,6 +1,7 @@
 // Emel Drove, Madeline typed
 
-var x = 0;  // variable created 
+// variables created 
+var x = 0;  
 var speed = 5; 
 var r = 75
 var b = 125
@@ -25,8 +26,9 @@ function draw() {
     speed = - 5;
   }
    if (x < 0) { // if statement where x less than 0 plus speed
-     speed =  + 5
+     speed =  + 5 //x is zero and decreased by speed which 5
+
    }
- x = x + speed; 
+ x = x + speed; // x is zero and increased by speed which 5
 
 }
