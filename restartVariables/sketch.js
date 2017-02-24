@@ -1,5 +1,5 @@
 
-// these are variables
+// variables created
 var ballX = 100;
 var ballY = 75;
 var speedX = 2;
@@ -9,7 +9,7 @@ var speedY = 3;
 function setup() {
 	createCanvas(600, 400);
 }
-
+// background defined
 function draw() {
 	background(100, 50, 200);
 	
@@ -18,15 +18,14 @@ function draw() {
 	display(); // display function
 }
 
-// this function is one that we create. it is not drawn in any system functions such as draw() or setup(),
-// however, a function can be called or used inside them
+// display function was created. 
 function display() {
 	stroke(255);
 	strokeWeight(4);
 	fill(random(255), random(255));
 	ellipse(ballX, ballY, 24, 24);
 }
-
+// move function created.
 function move() {
 	ballX = ballX  + speedX;
 	ballY = ballY + speedY;
