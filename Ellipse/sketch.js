@@ -1,7 +1,7 @@
 function setup() {
-  createCanvas(640, 440);
+  createCanvas(640, 440); // canvas created
   background('red');
-  console.log('Emel');
+  console.log('Emel'); // console set to read Emel
   
 }
 
