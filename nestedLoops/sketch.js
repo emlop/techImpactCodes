@@ -1,9 +1,9 @@
 function setup() {
   createCanvas(600, 400);  // create canvas
 }
- 
+ // background, strokeWeight, stroke all defined here
 function draw() {
-  background(220); // background color
+  background(220); 
   strokeWeight(4); 
   stroke(0);
  // var x = 0 to start at point zero
